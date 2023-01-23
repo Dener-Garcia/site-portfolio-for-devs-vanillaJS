@@ -44,7 +44,7 @@ setInterval(() => {
   dateAll();
 }, 1000);
 
-// page prajects, show work when click a foldel button
+// page prajects, show work 1 when click a folder button
 
 const showWork1 = document.querySelector("#show-work-1");
 const work1 = document.querySelector("#work1");
@@ -56,7 +56,6 @@ showWork1.addEventListener("click", () => {
 
   setTimeout(() => {
     work1.style.display = "block";
-    console.log("clickei para aparecer depois de 2segundos");
   }, 200);
 
   btnClose.addEventListener("click", () => {
@@ -64,6 +63,29 @@ showWork1.addEventListener("click", () => {
     work1.classList.add("fadeOutJS");
     setTimeout(() => {
       work1.style.display = "none";
+    }, 200);
+  });
+});
+
+// page prajects, show work 2 when click a folder button
+
+const showWork2 = document.querySelector("#show-work-2");
+const work2 = document.querySelector("#work2");
+const btnClose2 = document.querySelector("#btn-close-2");
+
+showWork2.addEventListener("click", () => {
+  work2.classList.add("fadeInJS");
+  work2.classList.remove("fadeOutJS");
+
+  setTimeout(() => {
+    work2.style.display = "block";
+  }, 200);
+
+  btnClose2.addEventListener("click", () => {
+    work2.classList.remove("fadeInJS");
+    work2.classList.add("fadeOutJS");
+    setTimeout(() => {
+      work2.style.display = "none";
       console.log(" botao fechar");
     }, 200);
   });
