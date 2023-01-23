@@ -90,3 +90,27 @@ showWork2.addEventListener("click", () => {
     }, 200);
   });
 });
+
+// page prajects, show work 3 when click a folder button
+
+const showWork3 = document.querySelector("#show-work-3");
+const work3 = document.querySelector("#work3");
+const btnClose3 = document.querySelector("#btn-close-3");
+
+showWork3.addEventListener("click", () => {
+  work3.classList.add("fadeInJS");
+  work3.classList.remove("fadeOutJS");
+
+  setTimeout(() => {
+    work3.style.display = "block";
+  }, 200);
+
+  btnClose3.addEventListener("click", () => {
+    work3.classList.remove("fadeInJS");
+    work3.classList.add("fadeOutJS");
+    setTimeout(() => {
+      work3.style.display = "none";
+      console.log(" botao fechar");
+    }, 200);
+  });
+});
