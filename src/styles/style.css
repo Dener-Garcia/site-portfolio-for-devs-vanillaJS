@@ -1257,6 +1257,14 @@ button {
     font-size: 14px;
     font-weight: 500;
   }
+
+  .mbl-vh-20{
+    height: 20vh;
+  }
+
+  .mbl-vh-85{
+    height: 85vh;
+  }
 }
 
 .teste {
