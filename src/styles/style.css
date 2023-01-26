@@ -478,6 +478,10 @@ button {
   width: 100%;
 }
 
+.w-min-20{
+  min-width: 20%;
+}
+
 .w-screen {
   width: 100vw;
 }
