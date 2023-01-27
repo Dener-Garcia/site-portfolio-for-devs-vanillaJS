@@ -1,0 +1,47 @@
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jf-center {
+  justify-content: center;
+}
+
+.jf-around {
+  justify-content: space-around;
+}
+
+.jf-evenly {
+  justify-content: space-evenly;
+}
+
+.jf-between {
+  justify-content: space-between;
+}
+
+.ai-baseline {
+  align-items: baseline;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.fd-col {
+  flex-direction: column;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.grd-tpt-col-auto {
+  grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+}
+
+.d-block {
+  display: block;
+}

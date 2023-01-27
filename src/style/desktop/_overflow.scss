@@ -1,0 +1,19 @@
+.of-scroll {
+    overflow: scroll;
+  }
+  
+  .of-hidden {
+    overflow: hidden;
+  }
+
+  .bar-hidden-scroll-chrome-safari::-webkit-scrollbar {
+    display: none;
+  }
+
+  .bar-hidden-scroll-fox {
+    overflow: -moz-scrollbars-none;
+  }
+  
+  .bar-hidden-scroll-ie {
+    -ms-overflow-style: none;
+  }

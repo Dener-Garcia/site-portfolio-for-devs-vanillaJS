@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jf-center {
+  justify-content: center;
+}
+
+.jf-around {
+  justify-content: space-around;
+}
+
+.jf-evenly {
+  justify-content: space-evenly;
+}
+
+.jf-between {
+  justify-content: space-between;
+}
+
+.ai-baseline {
+  align-items: baseline;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.fd-col {
+  flex-direction: column;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.grd-tpt-col-auto {
+  grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+}
+
+.d-block {
+  display: block;
+}
+
+.gp-4 {
+  gap: 0.25rem;
+}
+
+.gp-8 {
+  gap: 0.5rem;
+}
+
+.gp-12 {
+  gap: 0.75rem;
+}
+
+.gp-16 {
+  gap: 1rem;
+}
+
+.gp-18 {
+  gap: 1.125rem;
+}
+
+.gp-20 {
+  gap: 1.25rem;
+}
+
+.gp-24 {
+  gap: 1.5rem;
+}
+
+.gp-28 {
+  gap: 1.75rem;
+}
+
+.gp-32 {
+  gap: 2rem;
+}
+
+.gp-36 {
+  gap: 2.25rem;
+}
+
+.gp-40 {
+  gap: 2.5rem;
+}
+
+.gp-56 {
+  gap: 3.5rem;
+}
+
+.of-scroll {
+  overflow: scroll;
+}
+
+.of-hidden {
+  overflow: hidden;
+}
+
+.bar-hidden-scroll-chrome-safari::-webkit-scrollbar {
+  display: none;
+}
+
+.bar-hidden-scroll-fox {
+  overflow: -moz-scrollbars-none;
+}
+
+.bar-hidden-scroll-ie {
+  -ms-overflow-style: none;
+}
+
+@media (max-width: 960px) {
+  .mlb-d-flex {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
