@@ -170,7 +170,7 @@ button {
 #rect04,
 #rect05,
 #rect06 {
-  animation: outline1 2s ease 0s forwards;
+  animation: outline1 2.2s ease 0.5s forwards;
 }
 
 #brect01,
@@ -182,7 +182,7 @@ button {
 #circ03,
 #circ04,
 #circ05 {
-  animation: outline2 2.2s ease 0s forwards;
+  animation: outline2 2.2s ease 0.5s forwards;
 }
 
 #pointer {
