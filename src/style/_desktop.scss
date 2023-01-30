@@ -1,3 +1,5 @@
+@import "desktop/colors";
+
 @import "desktop/_position";
 @import "desktop/_position-top";
 @import "desktop/_position-bottom";
@@ -15,10 +17,7 @@
 @import "desktop/_padding-right";
 @import "desktop/_padding-bottom";
 
-
-
 @import "desktop/_gap";
-
 
 @import "desktop/_gap";
 
@@ -29,3 +28,7 @@
 @import "desktop/overflow";
 
 @import "desktop/_mouse-cursor";
+
+.teste{
+    background-color: $green;
+}
