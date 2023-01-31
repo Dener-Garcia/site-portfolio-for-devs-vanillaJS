@@ -6,6 +6,11 @@
 @import "desktop/_position-left";
 @import "desktop/_position-right";
 
+@import "desktop/_margin-left";
+@import "desktop/_margin-top";
+@import "desktop/_margin-right";
+@import "desktop/_margin-bottom";
+
 @import "desktop/_width";
 @import "desktop/height";
 
@@ -19,8 +24,6 @@
 
 @import "desktop/_gap";
 
-@import "desktop/_gap";
-
 @import "desktop/_border-radius";
 
 @import "desktop/_z-index";
@@ -29,6 +32,4 @@
 
 @import "desktop/_mouse-cursor";
 
-.teste{
-    background-color: $green;
-}
+@import "desktop/opacity";
