@@ -1,4 +1,4 @@
-@import "desktop/colors";
+@import "desktop/_colors";
 
 @import "desktop/_position";
 @import "desktop/_position-top";
@@ -12,7 +12,7 @@
 @import "desktop/_margin-bottom";
 
 @import "desktop/_width";
-@import "desktop/height";
+@import "desktop/_height";
 
 @import "desktop/_display";
 
@@ -28,8 +28,10 @@
 
 @import "desktop/_z-index";
 
-@import "desktop/overflow";
+@import "desktop/_overflow";
 
 @import "desktop/_mouse-cursor";
 
-@import "desktop/opacity";
+@import "desktop/_opacity";
+
+@import "desktop/_transitions";
