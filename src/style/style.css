@@ -12,12 +12,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-span {
-  opacity: 0, 5;
-}
-
 li {
   list-style: none;
+}
+
+button {
+  border: none;
 }
 
 .mg-auto {
@@ -37,6 +37,10 @@ li {
 }
 .bg-accent-primary:hover {
   background-color: #5fbbe9;
+}
+
+.hover-default:hover {
+  background-color: #476f83;
 }
 
 .bg-accent-secundary {
@@ -1752,6 +1756,16 @@ li {
   font-weight: 400;
 }
 
+.fs-16l {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.fs-14b {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
 .fs-14m {
   font-size: 0.875rem;
   font-weight: 500;
@@ -1762,14 +1776,9 @@ li {
   font-weight: 400;
 }
 
-.fs-16l {
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.fs-12 {
+.fs-12b {
   font-size: 0.75rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .fs-12m {
@@ -1777,15 +1786,53 @@ li {
   font-weight: 500;
 }
 
+.fs-12 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
 @media (max-width: 960px) {
   .mlb-d-flex {
     display: flex;
   }
 }
-.btn-all-apps span {
+.btn-all-apps span,
+.btn-my-projects span,
+.btn-profile span,
+.btn-whats-app span,
+.btn-links span,
+.btn-email span {
   opacity: 0;
+  transform: scale(0.01);
 }
 
-.btn-all-apps:hover span {
+.btn-all-apps:hover span,
+.btn-my-projects:hover span,
+.btn-profile:hover span,
+.btn-whats-app:hover span,
+.btn-links:hover span,
+.btn-email:hover span {
   opacity: 1;
+  transform: scale(1);
+}
+
+.aplication button::before {
+  content: "";
+  position: absolute;
+  bottom: 12%;
+  width: 3px;
+  height: 16px;
+  transform: rotate(45deg);
+  background-color: blue;
+}
+
+.aplication button::after {
+  content: "";
+  position: absolute;
+  bottom: 12%;
+  width: 3px;
+  height: 16px;
+  border-radius: 8px;
+  transform: rotate(-45deg);
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */

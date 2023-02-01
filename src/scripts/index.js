@@ -33,8 +33,8 @@ function dateAll() {
     MM = "0" + MM;
   }
 
-  let clockNow = hh + ":" + m + " " + "-" + " " + dd + "/" + MM;
-
+  let clockNow =  dd + " / " + MM + " - " + hh + ":" + m ;
+   
   clock.innerHTML = clockNow;
 
   console.log(MM);
@@ -43,6 +43,35 @@ function dateAll() {
 setInterval(() => {
   dateAll();
 }, 1000);
+
+
+const openFolder = document.querySelectorAll(".open-folder")
+
+
+openFolder.forEach((e) => {
+  e.addEventListener("click", (showMyWork))
+})
+
+function showMyWork(){
+  const showCase = document.querySelectorAll(".show-case")
+
+  console.log(showCase, "entrou show my work")
+  showCase.forEach((e)=>{
+    e.classList.add("d-block")
+  })
+  
+}
+
+
+const accordionFaq = document.querySelectorAll(".accordion");
+const accordionIcon = document.querySelectorAll(".icon-faq");
+
+accordionFaq.forEach((event) => {
+  event.addEventListener("click", () => {
+    event.classList.toggle("faqTextJS");
+    event.classList.toggle("faqIconJS");
+  });
+});
 
 // page prajects, show work 1 when click a folder button
 
