@@ -1,3 +1,7 @@
-.app-bar svg:hover span{
-    opacity: 0.1;
+.btn-all-apps span{
+    opacity: 0;
+}
+
+.btn-all-apps:hover span{
+    opacity: 1;
 }

@@ -20,32 +20,31 @@ li {
   list-style: none;
 }
 
-.op-100t:hover {
-  opacity: 1;
-}
-
 .mg-auto {
   margin: auto;
 }
 
 .bg-primary {
-  background-color: #1e2529;
-}
-
-.bg-primary-o-70 {
-  background-color: rgba(30, 37, 41, 0.7);
+  background-color: #1b2328;
 }
 
 .bg-secundary {
-  background-color: #1a171e;
+  background-color: #151c1f;
 }
 
 .bg-accent-primary {
-  background-color: #7747d1;
+  background-color: #b0d7eb;
+}
+.bg-accent-primary:hover {
+  background-color: #5fbbe9;
 }
 
 .bg-accent-secundary {
   background-color: #2929a3;
+}
+
+.bg-primary-o-70 {
+  background-color: rgba(30, 37, 41, 0.7);
 }
 
 .bg-black-50 {
@@ -237,6 +236,26 @@ li {
   top: 100%;
 }
 
+.tp-n25 {
+  top: -25%;
+}
+
+.tp-n33 {
+  top: -33%;
+}
+
+.tp-n50 {
+  top: -50%;
+}
+
+.tp-n75 {
+  top: -75%;
+}
+
+.tp-n100 {
+  top: -100%;
+}
+
 .bt {
   bottom: 0;
 }
@@ -259,6 +278,26 @@ li {
 
 .bt-100 {
   bottom: 100%;
+}
+
+.bt-n25 {
+  bottom: -25%;
+}
+
+.bt-n33 {
+  bottom: -33%;
+}
+
+.bt-n50 {
+  bottom: -50%;
+}
+
+.bt-n75 {
+  bottom: -75%;
+}
+
+.bt-n100 {
+  bottom: -100%;
 }
 
 .lf {
@@ -285,6 +324,26 @@ li {
   left: 100%;
 }
 
+.lf-n25 {
+  left: -25%;
+}
+
+.lf-n33 {
+  left: -33%;
+}
+
+.lf-n50 {
+  left: -50%;
+}
+
+.lf-n75 {
+  left: -75%;
+}
+
+.lf-n100 {
+  left: -100%;
+}
+
 .rg {
   right: 0;
 }
@@ -307,6 +366,26 @@ li {
 
 .rg-100 {
   right: 100%;
+}
+
+.rg-n25 {
+  right: -25%;
+}
+
+.rg-n33 {
+  right: -33%;
+}
+
+.rg-n50 {
+  right: -50%;
+}
+
+.rg-n75 {
+  right: -75%;
+}
+
+.rg-n100 {
+  right: -100%;
 }
 
 .mg-lf-25n {
@@ -1358,7 +1437,7 @@ li {
   padding-right: 5rem;
 }
 
-.pd-rg-96 {
+.pd-rg-96px {
   padding-right: 6rem;
 }
 
@@ -1586,6 +1665,10 @@ li {
   cursor: pointer;
 }
 
+.cr-default {
+  cursor: default;
+}
+
 .cr-image {
   cursor: url("../assets/background/pointer-figma.svg"), auto;
 }
@@ -1614,11 +1697,95 @@ li {
   transition: 0.3s;
 }
 
+.fs-56 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.fs-36m {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+.fs-36 {
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+.fs-24m {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.fs-24 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.fs-20 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.fs-18m {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.fs-18 {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.fs-16b {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.fs-16m {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.fs-16 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.fs-14m {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.fs-14 {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.fs-16l {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.fs-12 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.fs-12m {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
 @media (max-width: 960px) {
   .mlb-d-flex {
     display: flex;
   }
 }
-.app-bar svg:hover span {
-  opacity: 0.1;
+.btn-all-apps span {
+  opacity: 0;
+}
+
+.btn-all-apps:hover span {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

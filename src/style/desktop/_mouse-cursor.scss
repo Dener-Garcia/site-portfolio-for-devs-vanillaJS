@@ -2,6 +2,10 @@
     cursor: pointer;
   }
 
+.cr-default{
+  cursor: default;
+}
+
   .cr-image {
     cursor: url("../assets/background/pointer-figma.svg"), auto;
   }

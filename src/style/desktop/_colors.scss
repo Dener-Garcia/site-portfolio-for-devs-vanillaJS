@@ -1,21 +1,27 @@
-.bg-primary {
-  background-color: #1e2529;
-}
+@import "../_my-var.scss";
 
-.bg-primary-o-70 {
-  background-color: rgba(30, 37, 41, 0.7);
+.bg-primary {
+  background-color: $bg-primary;
 }
 
 .bg-secundary {
-  background-color: #1a171e;
+  background-color: $bg-secundary;
 }
 
 .bg-accent-primary {
-  background-color: #7747d1;
+  background-color: $bg-accent;
+
+  &:hover{
+    background-color: $bg-accent-hover;
+  }
 }
 
 .bg-accent-secundary {
   background-color: #2929a3;
+}
+
+.bg-primary-o-70 {
+  background-color: rgba(30, 37, 41, 0.7);
 }
 
 .bg-black-50 {
