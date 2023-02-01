@@ -1561,6 +1561,26 @@ button {
   gap: 3.5rem;
 }
 
+.gp-64px {
+  gap: 4rem;
+}
+
+.gp-72px {
+  gap: 4.5rem;
+}
+
+.gp-80px {
+  gap: 5rem;
+}
+
+.gp-80px {
+  gap: 5rem;
+}
+
+.gp-96px {
+  gap: 6rem;
+}
+
 .br-50 {
   border-radius: 50%;
 }
@@ -1818,21 +1838,24 @@ button {
 
 .aplication button::before {
   content: "";
-  position: absolute;
-  bottom: 12%;
+  position: relative;
+  display: flex;
+  margin: auto;
   width: 3px;
   height: 16px;
+  border-radius: 8px;
   transform: rotate(45deg);
-  background-color: blue;
+  background-color: #d5d5d7;
 }
 
 .aplication button::after {
   content: "";
   position: absolute;
-  bottom: 12%;
+  top: 4px;
+  left: 11px;
   width: 3px;
   height: 16px;
   border-radius: 8px;
   transform: rotate(-45deg);
-  background-color: white;
+  background-color: #d5d5d7;
 }/*# sourceMappingURL=style.css.map */

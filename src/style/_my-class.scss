@@ -20,21 +20,24 @@
 
 .aplication button::before{
 content: "";
-position: absolute;
-bottom: 12%;
+position: relative;
+display: flex;
+margin: auto;
 width: 3px;
 height: 16px;
+border-radius: 8px;
 transform: rotate(45deg);
-background-color: blue;
+background-color: #d5d5d7;
 }
 
 .aplication button::after{
-    content: "";
-    position: absolute;
-    bottom: 12%;
-    width: 3px;
-    height: 16px;
-    border-radius: 8px;
-    transform: rotate(-45deg);
-    background-color: white;
-    }
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 11px;
+  width: 3px;
+  height: 16px;
+  border-radius: 8px;
+  transform: rotate(-45deg);
+  background-color: #d5d5d7;
+  }
