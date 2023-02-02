@@ -32,6 +32,14 @@ button {
   background-color: #151c1f;
 }
 
+.bg-accent-menu {
+  color: #CFEDFC;
+}
+.bg-accent-menu:hover {
+  background-color: #CFEDFC;
+  color: #1e1e20;
+}
+
 .bg-accent-primary {
   background-color: #b0d7eb;
 }
@@ -137,6 +145,10 @@ button {
 
 .fc-black-900 {
   color: #141415;
+}
+
+.bg-sky-50 {
+  background-color: #CFEDFC;
 }
 
 .bg-sky-100 {
@@ -981,6 +993,10 @@ button {
   width: 90%;
 }
 
+.w-95 {
+  width: 95%;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -1035,6 +1051,18 @@ button {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-screen-90 {
+  height: 90vh;
+}
+
+.h-screen-80 {
+  height: 80vh;
+}
+
+.h-screen-70 {
+  height: 70vh;
 }
 
 .h-auto {
@@ -1717,8 +1745,24 @@ button {
   opacity: 1;
 }
 
+.ts-01 {
+  transition: 0.1s;
+}
+
+.ts-02 {
+  transition: 0.2s;
+}
+
 .ts-03 {
   transition: 0.3s;
+}
+
+.ts-04 {
+  transition: 0.4s;
+}
+
+.ts-05 {
+  transition: 0.5s;
 }
 
 .fs-56 {
@@ -1836,7 +1880,8 @@ button {
   transform: scale(1);
 }
 
-.aplication button::before {
+.aplication button::before,
+.work-tittle button::before {
   content: "";
   position: relative;
   display: flex;
@@ -1848,7 +1893,8 @@ button {
   background-color: #d5d5d7;
 }
 
-.aplication button::after {
+.aplication button::after,
+.work-tittle button::after {
   content: "";
   position: absolute;
   top: 4px;
@@ -1858,4 +1904,20 @@ button {
   border-radius: 8px;
   transform: rotate(-45deg);
   background-color: #d5d5d7;
+}
+
+.aplication-container aside {
+  border-right: solid 1px #47454a;
+}
+
+.folder svg:hover #page {
+  transform: translateY(-8px);
+}
+
+.real-case {
+  fill: #FFC841;
+}
+
+.real-case:hover {
+  fill: #ffda7d;
 }/*# sourceMappingURL=style.css.map */

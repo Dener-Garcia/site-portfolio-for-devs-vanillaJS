@@ -18,19 +18,21 @@
   transform: scale(1);
 }
 
-.aplication button::before{
-content: "";
-position: relative;
-display: flex;
-margin: auto;
-width: 3px;
-height: 16px;
-border-radius: 8px;
-transform: rotate(45deg);
-background-color: #d5d5d7;
+.aplication button::before,
+.work-tittle button::before {
+  content: "";
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 3px;
+  height: 16px;
+  border-radius: 8px;
+  transform: rotate(45deg);
+  background-color: #d5d5d7;
 }
 
-.aplication button::after{
+.aplication button::after,
+.work-tittle button::after {
   content: "";
   position: absolute;
   top: 4px;
@@ -40,4 +42,21 @@ background-color: #d5d5d7;
   border-radius: 8px;
   transform: rotate(-45deg);
   background-color: #d5d5d7;
-  }
+}
+
+.aplication-container aside {
+  border-right: solid 1px #47454a;
+}
+
+.folder svg:hover #page {
+  transform: translateY(-8px);
+}
+
+.real-case{
+  fill: #FFC841;
+}
+
+.real-case:hover {
+  fill: #ffda7d;
+  
+}

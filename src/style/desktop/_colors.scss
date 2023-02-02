@@ -8,6 +8,16 @@
   background-color: $bg-secundary;
 }
 
+.bg-accent-menu {
+  color: #CFEDFC;
+
+
+  &:hover{
+    background-color: #CFEDFC;
+    color: #1e1e20;
+  }
+}
+
 .bg-accent-primary {
   background-color: $bg-accent;
 
@@ -114,6 +124,10 @@
 
 .fc-black-900 {
   color: #141415;
+}
+
+.bg-sky-50{
+  background-color: #CFEDFC;
 }
 
 .bg-sky-100 {
