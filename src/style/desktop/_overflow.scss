@@ -1,9 +1,13 @@
+.of-hidden {
+  overflow: hidden;
+}
+
 .of-scroll {
     overflow: scroll;
   }
-  
-  .of-hidden {
-    overflow: hidden;
+
+  .of-scroll-y {
+    overflow-y: scroll;
   }
 
   .bar-hidden-scroll-chrome-safari::-webkit-scrollbar {
