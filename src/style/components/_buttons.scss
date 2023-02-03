@@ -1,0 +1,40 @@
+.btn-primary-rounded-m {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: $btn-primary;
+  border-width: 2px;
+  background-color: $btn-primary;
+  color: $btn-color;
+  transition: 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $btn-primary-hover;
+    border-color: $btn-primary-hover;
+    color: $btn-color-hover;
+  };
+};
+
+.btn-primary-rounded-outline-m {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: $btn-primary;
+    border-width: 2px;
+    background: none;
+    color: $btn-color;
+    transition: 0.2s;
+    cursor: pointer;
+  
+    &:hover {
+      background: $btn-primary-hover;
+      border-color: $btn-primary-hover;
+      color: $btn-color-hover;
+    };
+  };
+

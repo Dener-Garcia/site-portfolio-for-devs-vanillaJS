@@ -48,8 +48,8 @@
   border-right: solid 1px #47454a;
 }
 
-.folder svg:hover #page {
-  transform: translateY(-8px);
+.folder:hover #page {
+  transform: scale(1.2) translateY(-8px) translateX(-4px);
 }
 
 .real-case{
@@ -58,5 +58,6 @@
 
 .real-case:hover {
   fill: #ffda7d;
-  
 }
+
+

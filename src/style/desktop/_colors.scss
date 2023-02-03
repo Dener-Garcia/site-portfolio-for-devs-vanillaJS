@@ -34,8 +34,26 @@
   background-color: #2929a3;
 }
 
+.bg-primary-o-90 {
+  background-color: rgba(20, 20, 21, 0.9);
+}
+
 .bg-primary-o-70 {
-  background-color: rgba(30, 37, 41, 0.7);
+  background-color: rgba(20, 20, 21, 0.7);
+}
+
+.bg-primary-o-50 {
+  background-color: rgba(20, 20, 21, 0.5);
+}
+
+.bg-gradient-primary {
+  background-image: linear-gradient(
+    145deg,
+    #1111D0 0%,
+    #06066B 20%,
+    #050557 80%,
+    #1111D0 100%
+  );
 }
 
 .bg-black-50 {
@@ -188,4 +206,12 @@
 
 .fc-sky-700 {
   color: #03273a;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
 }

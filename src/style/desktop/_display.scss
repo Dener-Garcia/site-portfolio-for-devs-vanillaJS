@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.fx-warp{
+flex-wrap: wrap;
+}
+
 .jc-center {
   justify-content: center;
 }
@@ -30,6 +34,10 @@
   align-items: center;
 }
 
+.ai-end {
+  align-items: flex-end;
+}
+
 .fd-col {
   flex-direction: column;
 }
@@ -39,9 +47,13 @@
 }
 
 .grd-tpt-col-auto {
-  grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(130px, auto));
 }
 
 .d-block {
   display: block;
+}
+
+.red{
+  background-color: red;
 }

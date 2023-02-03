@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ṕt-BR">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,18 +19,18 @@
     <title>Projetos - Dener Garcia UX UI Designer</title>
   </head>
 
-  <body class="w-screen h-screen">
-    <div class="w-screen d-flex jc-center bg-primary-o-70">
+  <body class="w-screen h-screen bg-gradient-primary">
+    <div class="w-screen d-flex jc-center bg-black-900">
       <span id="clock" class="fs-12b pd-4px fc-black-150"></span>
     </div>
 
     <section class="aplication">
-      <div class="aplication-tittle d-flex jc-around ai-center bg-primary">
+      <div class="aplication-tittle ps-fixed w-screen d-flex jc-around ai-center bg-secundary">
         <h1 class="fs-14m pd-12px fc-black-150">Meus Projetos</h1>
         <a class="ps-absolute rg mg-rg-12px" href="../../index.html"><button class="w-24px h-24px br-50 bg-primary hover-default ts-03"></button></a>
       </div>
-      <div class="aplication-container w-100 h-screen-80 d-flex gp-96px bg-primary">
-        <aside>
+      <div class="aplication-container w-100 h-screen-80 d-flex gp-96px bg-primary of-hidden">
+        <aside class="mg-tp-40px mbl-d-none">
           <ul>
            <li class="d-flex ai-center gp-8px pd-8px br-4px fs-14 bg-accent-menu ts-02 cr-default"><span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 5.03721C0 3.36507 1.36727 2.01809 3.03909 1.98532C3.88944 1.96865 4.78411 1.93779 5.52941 1.88235C6.1292 1.82067 6.63318 1.54649 6.94118 1.05883C7.2292 0.602794 7.1911 0.213863 7.7574 0.0504237C7.91565 0.00474914 8.08276 0.00188106 8.24743 0.0056241L10.2446 0.0510209C11.8745 0.0880679 13.1765 1.41995 13.1765 3.05025V8.64708C13.1765 10.3039 11.8333 11.6471 10.1765 11.6471H3C1.34314 11.6471 0 10.3039 0 8.64708V5.03721Z" fill="#33E3AB"/>
@@ -49,10 +49,10 @@
               </svg></span>Projetos autorais</li>
           </ul>
         </aside>
-        <div class="folders-container d-flex pd-24px gp-24px">
-          <div class="folder d-flex fd-col ai-center gp-4px">
+        <div class="folders-container w-75 d-grid grd-tpt-col-auto mg-tp-40px pd-24px gp-24px of-scroll  bar-hidden-scroll-chrome-safari bar-hidden-scroll-fox mbl-w-100">
+          <div class="folder-real-case d-flex fd-col ai-center gp-4px">
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-            <svg class="real-case ts-02" width="96" height="96" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="show-work-1" class="folder real-case ts-02 cr-pointer" width="96" height="96" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="30" cy="30" r="30" fill="#F4A30B"/>
               <g id="page" class="ts-02">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M7 10C7 8.89542 7.89551 8 9 8H42C43.1045 8 44 8.89542 44 10V27C44 28.1046 43.1045 29 42 29H9C7.89551 29 7 28.1046 7 27V10ZM12 17H28V18H12V17ZM28 13H12V14H28V13Z" fill="#FAFAFA"/>
@@ -69,13 +69,13 @@
       </div>
 
       <div class="app-bar w-screen ps-absolute d-flex jc-center bt">
-        <ul class="lf-25 d-flex pd-lf-18px pd-tp-4px pd-rg-18px br-24px bg-primary-o-70">
-          <li class="btn-all-apps d-none">
-            <a href="#">
-              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-8px fc-black-150 fs-14m bg-primary ts-03 cr-default">Mostrar apps</span>
-              <svg class="cr-pointer pd-8px br-50 hover-default ts-03""
-                width="64"
-                height="64"
+        <ul class="lf-25 d-flex ai-center pd-lf-18px pd-rg-18px br-32px bg-black-900">
+          <li class="btn-all-apps d-flex">
+            <a href="#" class="d-none">
+              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-4px fc-black-150 fs-14m bg-secundary ts-03 cr-default">Mostrar apps</span>
+              <svg class="cr-pointer pd-4px br-50 hover-default ts-03"
+                width="56"
+                height="56"
                 viewBox="0 0 64 64"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -256,11 +256,11 @@
             ></a>
           </li>
           <li class="btn-my-projects">
-              <a href="">
-                <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-8px fc-black-150 fs-14m bg-primary ts-03 cr-default">Meus projetos</span>
-                <svg class="cr-pointer pd-8px br-50 hover-default ts-03"
-                  width="64"
-                  height="64"
+              <a href="" class="d-flex">
+                <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-4px fc-black-150 fs-14m bg-secundary ts-03 cr-default">Meus projetos</span>
+                <svg class="cr-pointer pd-4px br-50 hover-default ts-03"
+                width="56"
+                height="56"
                 viewBox="0 0 64 64"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -905,11 +905,11 @@
             ></a>
           </li>
           <li class="btn-profile">
-            <a>
-              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-8px fc-black-150 fs-14m bg-primary ts-03 cr-default">Sobre mim</span>
-              <svg class="cr-pointer pd-8px br-50 hover-default ts-03""
-                width="64"
-                height="64"
+            <a href="" class="d-flex">
+              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-4px fc-black-150 fs-14m bg-secundary ts-03 cr-default">Sobre mim</span>
+              <svg class="cr-pointer pd-4px br-50 hover-default ts-03""
+              width="56"
+              height="56"
                 viewBox="0 0 64 64"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1023,15 +1023,14 @@
                   <clipPath id="clip0_82_485">
                     <rect width="64" height="64" fill="white" />
                   </clipPath>
-                </defs></svg
-            ></a>
+                </defs></svg></a>
           </li>
           <li class="btn-whats-app">
-            <a>
-              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-8px fc-black-150 fs-14m bg-primary ts-03 cr-default">Meu WhatsApp</span>
-                <svg class="cr-pointer pd-8px br-50 hover-default ts-03""
-                  width="64"
-                  height="64"
+            <a href="" class="d-flex">
+              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-4px fc-black-150 fs-14m bg-secundary ts-03 cr-default">Meu WhatsApp</span>
+                <svg class="cr-pointer pd-4px br-50 hover-default ts-03""
+                width="56"
+                height="56"
                 viewBox="0 0 64 64"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1058,11 +1057,11 @@
             ></a>
           </li>
           <li class="btn-links">
-            <a>
-              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-8px fc-black-150 fs-14m bg-primary ts-03 cr-default">Meus links</span>
-                <svg class="cr-pointer pd-8px br-50 hover-default ts-03""
-                  width="64"
-                  height="64"
+            <a href="" class="d-flex">
+              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-4px fc-black-150 fs-14m bg-secundary ts-03 cr-default">Meus links</span>
+                <svg class="cr-pointer pd-4px br-50 hover-default ts-03""
+                width="56"
+                height="56"
                 viewBox="0 0 64 64"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1149,11 +1148,11 @@
             ></a>
           </li>
           <li class="btn-email">
-            <a>
-              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-8px fc-black-150 fs-14m bg-primary ts-03 cr-default">Envie um oi</span>
-                <svg class="cr-pointer pd-8px br-50 hover-default ts-03""
-                  width="64"
-                  height="64"
+            <a href="" class="d-flex">
+              <span class="ps-absolute tp-n50 mg-lf-n18px br-8px pd-4px fc-black-150 fs-14m bg-secundary ts-03 cr-default">Envie um oi</span>
+                <svg class="cr-pointer pd-4px br-50 hover-default ts-03""
+                width="56"
+                height="56"
                 viewBox="0 0 64 64"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1260,23 +1259,138 @@
       </div>
     </section>
 
-    <article id="work1" class="ps-fixed d-block tp w-screen h-screen-80 bg-accent-primary">
-      <div class="work-tittle d-flex jc-around ai-center bg-primary cr-default">
+    <article id="work1" class="ps-fixed d-none tp w-screen h-screen-90 bg-primary of-scroll">
+      <div class="work-tittle ps-fixed w-screen d-flex jc-around ai-center cr-default bg-secundary">
         <h1 class="fs-14m pd-12px fc-black-150">Projeto Company Geradores</h1>
         <button id="btn-close-1" class="ps-absolute w-24px h-24px rg mg-rg-12px br-50 bg-primary hover-default ts-03"></button>
       </div>
-      <div class="presentation d-flex w-95 mg-auto gp-72px bg-primary">
-        <h2 class="fs-24m fc-black-150">Energia para momentos difíceis</h2>
+      <div class="presentation d-flex jc-evenly w-95 mg-auto gp-56px mg-tp-40px pd-8px mbl-fd-col mbl-gp-40px">
+        <h2 class="fs-24m fc-black-100">Energia para momentos difíceis</h2>
+        <div class="d-flex fd-col gp-16px">
       <div>
-        <h3>Cliente</h3>
-        <p>Company Geradores</p>
+        <h3 class="fs-20px fc-black-100">Cliente</h3>
+        <p class="fs-16px fc-black-150">Company Geradores</p>
       </div>
         <div>
-        <h3>Entregáveis</h3>
-        <p>Interface no Figma, web site e responsividade</p>
+        <h3 class="fs-20px fc-black-100">Entregáveis</h3>
+        <p class="fs-16px fc-black-150">Interface no Figma, web site e responsividade</p>
       </div>
       </div>
-    </article>
+    </div>
+    <div class="cta-work w-95 d-flex ai-center jc-center mg-auto pd-16px gp-28px mbl-fd-col mbl-gp-24px">
+      <a href=""><button class="btn-primary-rounded-m mbl-w-screen-80">Veja no Figma</button></a> 
+     <a href=""><button class="btn-primary-rounded-outline-m mbl-w-screen-80">Visite o site</button></a>
+    </div>
+    <div class="img-cover w-screen-90 mg-auto pd-tp-80px pd-bt-80px">
+    <img
+    class="w-100 br-4px"
+        src="/src/assets/company-geradores/Presentation-cover.png"
+        alt="capa do trabalho" />
+      </div>
 
+    <div class="description-work d-flex jc-evenly w-95 mg-auto gp-56px pd-8px mbl-fd-col mbl-gp-40px">
+        <h2 class="fs-24m fc-black-100">A Company geradores é uma empresa que presta serviços de instalação e manutenção em grupos geradores a gasolina ou diesel.</h2>
+        <div class="d-flex fd-col gp-4px">
+        <h3 class="fs-20px fc-black-100">Objetivo do projeto</h3>
+        <p class="fs-16px fc-black-150">Criar a presença digital da Company Geradores através de um web site que seja totalmente responsivo, no projeto foi utilizado um layout base desenvolvido no Figma por mim e posteriormente realizado a codificação em HTML, CSS e Javascript seguindo boas práticas de design e código.</p>
+    </div>
+      </div>
+    <div class="img-cover w-screen-80 mg-auto pd-tp-80px pd-bt-80px mbl-w-screen-90">
+      <img
+          class="w-100 br-4px"
+          src="/src/assets/company-geradores/Proposta de valor.png"
+          alt="capa do trabalho" />
+        </div>
+
+        <div class="description-work d-flex jc-evenly w-80 mg-auto gp-56px pd-8px mbl-w-95 mbl-fd-col mbl-gp-40px">
+          <h2 class="mnw-25 fs-24m fc-black-100">Processos de UX</h2>
+          <div class="d-flex fd-col gp-4px">
+          <h3 class="fs-20px fc-black-100">Discovery, sitemap e wireframe</h3>
+          <p class="fs-16px fc-black-150">A escolha de um site one page privilegia usuários de smartphones já que o movimento normal desse usuário é "rolar" a página não tendo de procurar   botões para serem clicados.
+            O site tem poucas opções de menus para o usuário não se perder, considerando o meio que o cliente trabalha ter velocidade na resposta do atendimento era crucial.
+            Por fim o usuário tem sempre disponível um botão de contato direto com o prestador de serviço, tornando o contato simples e efetivo.</p>
+      </div>
+        </div>
+      <div class="img-cover w-screen-80 mg-auto pd-tp-80px pd-bt-80px mbl-w-screen-90">
+        <img
+            class="w-100 br-4px"
+            src="/src/assets/company-geradores/Sitemap.png"
+            alt="capa do trabalho" />
+          </div>
+
+          <div class="img-cover w-screen-80 mg-auto pd-bt-80px mbl-w-screen-90">
+            <img
+                class="w-100 br-4px"
+                src="/src/assets/company-geradores/Wireframe.png"
+                alt="capa do trabalho" />
+              </div>
+
+              <div class="description-work d-flex jc-evenly w-80 mg-auto gp-56px pd-8px mbl-w-95 mbl-fd-col mbl-gp-40px">
+                <h2 class="mnw-25 fs-24m fc-black-100">Style Guide do projeto</h2>
+                <div class="d-flex fd-col gp-4px">
+                <h3 class="fs-20px fc-black-100">Cores e tipografia</h3>
+                <p class="fs-16px fc-black-150">Uma das exigências do projeto era a utilização das cores azul e laranja, essas foram adaptadas para a UI pois as cores antigas eram baseadas para uso gráfico. Trabalhei com as proporções de 60 30 10 para distribuir de forma harmônica as cores pela interface. A fonte utilizada foi a Roboto, uma fonte pensada para a web já que possui vários estilos se adaptando as várias necessidades de uma interface.</p>
+            </div>
+              </div>
+            <div class="img-cover w-screen-80 mg-auto pd-tp-80px pd-bt-80px mbl-w-screen-90">
+              <img
+                  class="w-100 br-4px"
+                  src="/src/assets/company-geradores/Style-guide.png"
+                  alt="capa do trabalho" />
+                </div>
+
+                <div class="description-work d-flex jc-evenly w-80 mg-auto gp-56px pd-8px mbl-w-95 mbl-fd-col mbl-gp-40px">
+                  <h2 class="mnw-25 fs-24m fc-black-100">Atomic design</h2>
+                  <div class="d-flex fd-col gp-4px">
+                  <h3 class="fs-20px fc-black-100">Agilidade e escalabilidade</h3>
+                  <p class="fs-16px fc-black-150">Desenvolvimento baseado em componentes permite manter uma coerência e padrão de design, criando componentes no figma diminuimos sua complexibilidade na hora do desenvolver "codar" pois ele pode entender como funciona cada recurso e como ele deve se comportar.</p>
+              </div>
+                </div>
+              <div class="img-cover w-screen-80 mg-auto pd-tp-80px pd-bt-80px mbl-w-screen-90">
+                <img
+                    class="w-100 br-4px"
+                    src="/src/assets/company-geradores/Components.png"
+                    alt="capa do trabalho" />
+                  </div>
+
+                  <div class="description-work d-flex jc-evenly w-80 mg-auto gp-56px pd-8px mbl-w-95 mbl-fd-col mbl-gp-40px">
+                    <h2 class="mnw-25 fs-24m fc-black-100">Telas</h2>
+                    <div class="d-flex fd-col gp-4px">
+                    <h3 class="fs-20px fc-black-100">Layout desktop com responsividade e performance</h3>
+                    <p class="fs-16px fc-black-150">Acessibilidade no design é dar ao usuário poder de escolha também, pensar num layout que seja agradável de se utilizar em qualquer dispositivo é fundamental para uma boa experiência aliado a performance como tempo de carregamento e fluidez ao usar o produto.</p>
+                </div>
+                  </div>
+                <div class="img-cover w-screen-80 mg-auto pd-tp-80px pd-bt-80px mbl-w-screen-90">
+                  <img
+                      class="w-100 br-4px"
+                      src="/src/assets/company-geradores/desktop-screens.png"
+                      alt="capa do trabalho" />
+                    </div>
+
+                    <div class="img-cover w-screen-80 mg-auto pd-bt-80px mbl-w-screen-90">
+                      <img
+                          class="w-100 br-4px"
+                          src="/src/assets/company-geradores/mobile-screens.png"
+                          alt="capa do trabalho" />
+                        </div>
+
+                        <div class="img-cover w-screen-80 mg-auto pd-bt-80px mbl-w-screen-90">
+                          <img
+                              class="w-100 br-4px"
+                              src="/src/assets/company-geradores/Performance.png"
+                              alt="capa do trabalho" />
+                            </div>
+                   <div class="description-work d-flex jc-evenly w-80 mg-auto gp-56px pd-8px mbl-w-95 mbl-fd-col mbl-gp-40px">
+                    <h2 class="mnw-25 fs-24m fc-black-100">Desafios</h2>
+                    <div class="d-flex fd-col gp-4px">
+                    <h3 class="fs-20px fc-black-100">Dificuldades durante o projeto</h3>
+                    <p class="fs-16px fc-black-150">Criar um design diferente mas sem sair do nicho da empresa foi um dos desafios em que tive de me concentrar, para quem procura esse tipo de serviço é necessário passar algumas sensações ao usuário final como confiança, seriedade e profissionalismo.</p>
+                </div>
+                  </div>
+                  <div class="cta-work w-95 d-flex ai-center jc-center mg-auto pd-tp-80px pd-bt-80px gp-28px mbl-fd-col mbl-gp-24px">
+                    <a href=""><button class="btn-primary-rounded-m mbl-w-screen-80">Veja no Figma</button></a> 
+                   <a href=""><button class="btn-primary-rounded-outline-m mbl-w-screen-80">Visite o site</button></a>
+                  </div>
+    </article>
   </body>
 </html>
