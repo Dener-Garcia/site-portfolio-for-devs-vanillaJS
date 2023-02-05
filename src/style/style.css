@@ -28,6 +28,10 @@ button {
   margin: auto;
 }
 
+.bg-none {
+  background-color: transparent;
+}
+
 .bg-primary {
   background-color: #1b2328;
 }
@@ -37,22 +41,22 @@ button {
 }
 
 .bg-accent-menu {
-  color: #CFEDFC;
+  color: #A8CEF3;
 }
 .bg-accent-menu:hover {
-  background-color: #CFEDFC;
+  background-color: #A8CEF3;
   color: #1e1e20;
 }
 
 .bg-accent-primary {
-  background-color: #b0d7eb;
+  background-color: #C0DBF6;
 }
 .bg-accent-primary:hover {
-  background-color: #5fbbe9;
+  background-color: #82B7EE;
 }
 
 .hover-default:hover {
-  background-color: #476f83;
+  background-color: #838188;
 }
 
 .bg-accent-secundary {
@@ -80,11 +84,11 @@ button {
 }
 
 .fc-black-50 {
-  color: #fafafa;
+  color: #FAFAFA;
 }
 
 .bg-black-100 {
-  background-color: #eaeaeb;
+  background-color: #F2F2F3;
 }
 
 .fc-black-100 {
@@ -92,7 +96,7 @@ button {
 }
 
 .bg-black-150 {
-  background-color: #d5d5d7;
+  background-color: #DADADC;
 }
 
 .fc-black-150 {
@@ -1935,7 +1939,7 @@ button {
 }
 
 .bar-scroll::-webkit-scrollbar-thumb {
-  background-color: #b0d7eb;
+  background-color: #C0DBF6;
 }
 
 .bar-scroll::-webkit-scrollbar {
@@ -1946,7 +1950,7 @@ button {
 .bar-scroll {
   overflow-x: scroll;
   overflow-y: hidden;
-  scrollbar-color: #b0d7eb #151c1f;
+  scrollbar-color: #C0DBF6 #151c1f;
 }
 
 .cr-pointer {
@@ -2480,7 +2484,7 @@ button {
 }
 
 .certificate:hover {
-  outline: solid 4px #b0d7eb;
+  outline: solid 4px #C0DBF6;
   border-radius: 8px;
 }
 
@@ -2493,10 +2497,10 @@ button {
   outline: none;
 }
 .inputs:hover {
-  outline: solid 2px #b0d7eb;
+  outline: solid 2px #C0DBF6;
 }
 .inputs:focus {
-  outline: solid 2px #b0d7eb;
+  outline: solid 2px #C0DBF6;
 }
 
 textarea {
@@ -2510,17 +2514,17 @@ textarea {
   font-weight: 500;
   border-radius: 2rem;
   border-style: solid;
-  border-color: blue;
+  border-color: #C0DBF6;
   border-width: 2px;
-  background-color: blue;
-  color: black;
+  background-color: #C0DBF6;
+  color: #141415;
   transition: 0.2s;
   cursor: pointer;
 }
 .btn-primary-rounded-m:hover {
-  background-color: yellow;
-  border-color: yellow;
-  color: white;
+  background-color: #82B7EE;
+  border-color: #82B7EE;
+  color: #141415;
 }
 
 .btn-primary-rounded-outline-m {
@@ -2529,17 +2533,17 @@ textarea {
   font-weight: 500;
   border-radius: 2rem;
   border-style: solid;
-  border-color: blue;
+  border-color: #C0DBF6;
   border-width: 2px;
   background: none;
-  color: black;
+  color: #F2F2F3;
   transition: 0.2s;
   cursor: pointer;
 }
 .btn-primary-rounded-outline-m:hover {
-  background: yellow;
-  border-color: yellow;
-  color: white;
+  background: #82B7EE;
+  border-color: #82B7EE;
+  color: #141415;
 }
 
 @media (max-width: 960px) {
@@ -2863,5 +2867,8 @@ textarea {
   }
   .mbl-pd-tp-96 {
     padding-top: 6rem;
+  }
+  .mbl-bg-none {
+    background-color: transparent;
   }
 }/*# sourceMappingURL=style.css.map */
