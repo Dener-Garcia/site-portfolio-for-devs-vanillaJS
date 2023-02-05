@@ -8,6 +8,12 @@
 
   .of-scroll-y {
     overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .of-scroll-x {
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
 
   .bar-hidden-scroll-chrome-safari::-webkit-scrollbar {
@@ -17,7 +23,20 @@
   .bar-hidden-scroll-fox {
     overflow: -moz-scrollbars-none;
   }
-  
-  .bar-hidden-scroll-ie {
-    -ms-overflow-style: none;
+
+  .bar-scroll::-webkit-scrollbar-thumb{
+    background-color: $bg-accent;
+
   }
+
+  .bar-scroll::-webkit-scrollbar{
+    height: 4px;
+    background-color: $bg-secundary;
+  }
+
+  .bar-scroll{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-color: $bg-accent $bg-secundary;
+  }
+  

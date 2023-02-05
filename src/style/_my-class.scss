@@ -1,3 +1,175 @@
+@keyframes outline1 {
+  0% {
+    stroke-dasharray: 0 1000;
+    stroke-width: 3;
+  }
+  100% {
+    stroke-dasharray: 150 0;
+  }
+}
+
+@keyframes outline2 {
+  0% {
+    stroke-dasharray: 0 1000;
+    stroke-dashoffset: 520;
+    stroke-width: 2;
+  }
+  100% {
+    stroke-dasharray: 150 0;
+  }
+}
+
+@keyframes pointer-move {
+  0% {
+    transform: translate(80px, 20px);
+  }
+  5% {
+    transform: translate(-210px, 70px);
+  }
+  15% {
+    transform: translate(-10px, 65px);
+  }
+  35% {
+    transform: translate(-300px, -280px);
+  }
+  50% {
+    transform: translate(88px, -260px);
+  }
+  65% {
+    transform: translate(-358px, -60px);
+  }
+  78% {
+    transform: translate(-428px, -180px);
+  }
+  90% {
+    transform: translate(88px, -150px);
+  }
+  100% {
+    transform: translate(80px, 20px);
+  }
+}
+
+@keyframes fill-opacity {
+  0% {
+    fill-opacity: 0;
+  }
+  100% {
+    fill-opacity: 1;
+  }
+}
+
+@keyframes scale1 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1) translateX(-20px) translateY(-50px);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scale2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1) translateX(20px) translateY(-40px);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scale3 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1) translateX(-70px) translateY(-60px);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#wireframe01,
+#wireframe02,
+#wireframe03,
+#wireframe04,
+#wireframe05,
+#rect01,
+#rect02,
+#rect03,
+#rect04,
+#rect05,
+#rect06 {
+  animation: outline1 2.2s ease 0.5s forwards;
+}
+
+#brect01,
+#brect02,
+#brect03,
+#brect04,
+#circ01,
+#circ02,
+#circ03,
+#circ04,
+#circ05 {
+  animation: outline2 2.2s ease 0.5s forwards;
+}
+
+#pointer {
+  animation: pointer-move 18s ease 2s infinite;
+  transform: translate(80px, 20px);
+}
+
+#rec-foco-usuario,
+#foco-usuario {
+  animation: fill-opacity 0.5s ease 8s forwards;
+}
+
+#user {
+  animation: scale1 0.6s ease 7.8s forwards;
+}
+
+#rec-research,
+#research {
+  animation: fill-opacity 0.5s ease 10.8s forwards;
+}
+
+#search {
+  animation: scale1 0.6s ease 10.5s forwards;
+}
+
+#rec-ideacao,
+#ideacao {
+  animation: fill-opacity 0.5s ease 13.5s forwards;
+}
+
+#idea {
+  animation: scale1 0.5s ease 13.3s forwards;
+}
+
+#rec-prototipagem,
+#prototipagem {
+  animation: fill-opacity 0.5s ease 15.7s forwards;
+}
+
+#code {
+  animation: scale2 0.7s ease 15.4s forwards;
+}
+
+#rec-feedbacks,
+#feedbacks {
+  animation: fill-opacity 0.5s ease 18.2s forwards;
+}
+
+#feedback-text {
+  animation: scale3 0.7s ease 17.9s forwards;
+}
+
 .btn-all-apps span,
 .btn-my-projects span,
 .btn-profile span,
@@ -58,6 +230,34 @@
 
 .real-case:hover {
   fill: #ffda7d;
+}
+
+.certificate:hover{
+  outline: solid 4px $bg-accent;
+  border-radius: 8px;
+
+}
+
+.barra::-webkit-scrollbar-thumb {   
+  background-color: rgb(119, 0, 255);   
+  }
+
+.inputs{
+  border: none;
+  outline: none;
+  
+  &:hover{
+    outline: solid 2px $bg-accent;
+  }
+
+  &:focus{
+    outline: solid 2px $bg-accent;
+  }
+}
+
+textarea {
+  height: 8rem;
+  resize: vertical;
 }
 
 
