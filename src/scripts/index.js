@@ -41,7 +41,7 @@ function dateAll() {
 
 setInterval(() => {
   dateAll();
-}, 1000);
+}, 100);
 
 // page prajects, show work 1 when click a folder button
 
@@ -73,4 +73,4 @@ showWork1.addEventListener("click", () => {
 // <div class="h-screen pd-32px">
 //     <object width="100%" height="100%" data="../assets/pdf/apostila.pdf" type="application/pdf">
 //         Texto caso o pdf nao apareca.</object>
-//     </div>
+//     </div>f
