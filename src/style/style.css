@@ -2546,7 +2546,7 @@ textarea {
   color: #141415;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 880px) {
   .mbl-w-screen {
     width: 100vw;
   }

@@ -41,7 +41,7 @@ function dateAll() {
 
 setInterval(() => {
   dateAll();
-}, 100);
+}, 200);
 
 // page prajects, show work 1 when click a folder button
 
@@ -65,12 +65,3 @@ showWork1.addEventListener("click", () => {
     }, 200);
   });
 });
-
-
-// codigo para pdf na pagina
-//<embed src="../assets/pdf/apostila.pdf" type="application/pdf" width="100%" height="600"></embed>
-// melhor modo adicionar pdf na pagina
-// <div class="h-screen pd-32px">
-//     <object width="100%" height="100%" data="../assets/pdf/apostila.pdf" type="application/pdf">
-//         Texto caso o pdf nao apareca.</object>
-//     </div>f
