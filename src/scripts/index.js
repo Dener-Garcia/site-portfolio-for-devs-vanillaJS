@@ -43,7 +43,7 @@ setInterval(() => {
   dateAll();
 }, 200);
 
-// page prajects, show work 1 when click a folder button
+// page prajects, show work 1 when click a folder button company geradores
 
 const showWork1 = document.querySelector("#show-work-1");
 const work1 = document.querySelector("#work1");
@@ -62,6 +62,29 @@ showWork1.addEventListener("click", () => {
     work1.classList.add("fade-out");
     setTimeout(() => {
       work1.style.display = "none";
+    }, 200);
+  });
+});
+
+// page prajects, show work 2 when click a folder button BAT eDocs
+
+const showWork2 = document.querySelector("#show-work-2");
+const work2 = document.querySelector("#work2");
+const btnClose2 = document.querySelector("#btn-close-2");
+
+showWork2.addEventListener("click", () => {
+  work2.classList.add("fade-in");
+  work2.classList.remove("fade-out");
+
+  setTimeout(() => {
+    work2.style.display = "block";
+  }, 200);
+
+  btnClose2.addEventListener("click", () => {
+    work2.classList.remove("fade-in");
+    work2.classList.add("fade-out");
+    setTimeout(() => {
+      work2.style.display = "none";
     }, 200);
   });
 });
