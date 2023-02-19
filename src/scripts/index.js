@@ -88,3 +88,26 @@ showWork2.addEventListener("click", () => {
     }, 200);
   });
 });
+
+// page prajects, show work 2 when click a folder button BAT eDocs
+
+const showWork3 = document.querySelector("#show-work-3");
+const work3 = document.querySelector("#work3");
+const btnClose3 = document.querySelector("#btn-close-3");
+
+showWork3.addEventListener("click", () => {
+  work3.classList.add("fade-in");
+  work3.classList.remove("fade-out");
+
+  setTimeout(() => {
+    work3.style.display = "block";
+  }, 200);
+
+  btnClose3.addEventListener("click", () => {
+    work3.classList.remove("fade-in");
+    work3.classList.add("fade-out");
+    setTimeout(() => {
+      work3.style.display = "none";
+    }, 200);
+  });
+});
