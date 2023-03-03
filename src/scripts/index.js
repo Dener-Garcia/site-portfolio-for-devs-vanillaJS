@@ -111,3 +111,26 @@ showWork3.addEventListener("click", () => {
     }, 200);
   });
 });
+
+// page prajects, show work 4 when click a folder button Lit Academy landing page
+
+const showWork4 = document.querySelector("#show-work-4");
+const work4 = document.querySelector("#work4");
+const btnClose4 = document.querySelector("#btn-close-4");
+
+showWork4.addEventListener("click", () => {
+  work4.classList.add("fade-in");
+  work4.classList.remove("fade-out");
+
+  setTimeout(() => {
+    work4.style.display = "block";
+  }, 200);
+
+  btnClose4.addEventListener("click", () => {
+    work4.classList.remove("fade-in");
+    work4.classList.add("fade-out");
+    setTimeout(() => {
+      work4.style.display = "none";
+    }, 200);
+  });
+});
