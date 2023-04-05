@@ -1942,7 +1942,7 @@ button {
 }
 
 .bar-scroll::-webkit-scrollbar {
-  height: 4px;
+  height: 8px;
   background-color: #151c1f;
 }
 
