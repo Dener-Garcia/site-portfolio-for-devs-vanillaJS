@@ -89,7 +89,7 @@ showWork2.addEventListener("click", () => {
   });
 });
 
-// page prajects, show work 2 when click a folder button BAT eDocs
+// page prajects, show work 3 when click a folder button BAT eDocs
 
 const showWork3 = document.querySelector("#show-work-3");
 const work3 = document.querySelector("#work3");
@@ -131,6 +131,29 @@ showWork4.addEventListener("click", () => {
     work4.classList.add("fade-out");
     setTimeout(() => {
       work4.style.display = "none";
+    }, 200);
+  });
+});
+
+// page prajects, show work 4 when click a folder button Lit Academy landing page
+
+const showWork5 = document.querySelector("#show-work-5");
+const work5 = document.querySelector("#work5");
+const btnClose5 = document.querySelector("#btn-close-5");
+
+showWork5.addEventListener("click", () => {
+  work5.classList.add("fade-in");
+  work5.classList.remove("fade-out");
+
+  setTimeout(() => {
+    work5.style.display = "block";
+  }, 200);
+
+  btnClose5.addEventListener("click", () => {
+    work5.classList.remove("fade-in");
+    work5.classList.add("fade-out");
+    setTimeout(() => {
+      work5.style.display = "none";
     }, 200);
   });
 });
