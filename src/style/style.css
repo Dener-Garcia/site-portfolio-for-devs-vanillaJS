@@ -1207,6 +1207,10 @@ button {
   width: 20rem;
 }
 
+.w-400px {
+  width: 25rem;
+}
+
 .radio-1x1 {
   aspect-ratio: 1/1;
 }
